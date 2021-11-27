@@ -18,6 +18,7 @@ var completedTasksHolder=document.getElementById("footer__completed-tasks");//fo
 var createNewTaskElement=function(taskString){
 
     var listItem=document.createElement("li");
+    listItem.className="list-item";
 
     //input (checkbox)
     var checkBox=document.createElement("input");//checkbx
