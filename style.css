@@ -12,8 +12,7 @@ body {
   text-align: right;
 }
 
-.header
-img {
+.header img {
   width: 100%;
 }
 
@@ -177,6 +176,8 @@ input[type="text"] {
   width: 224px;
 }
 
-.list .list-item.edit-mode label {
+.list
+.list-item.edit-mode
+label {
   display: none;
 }
